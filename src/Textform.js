@@ -31,8 +31,7 @@ export default function Textform(props) {
             </div>
             <button className="btn btn-primary mx-1"  onClick = {handleUpClick}> Convert into uppercase</button>
             <button className="btn btn-primary mx-1" onClick = {handleLoClick}> Convert into lowercase</button>
-            <button className="btn btn-primary mx-1" onClick = {clear}> C
-            lear text</button>
+            <button className="btn btn-primary mx-1" onClick = {clear}> Clear text</button>
         </div>
         <div className="container my-3" style ={{color: props.mode === 'dark' ? 'white' : 'black'}}>
         <h1>Your text here</h1>
