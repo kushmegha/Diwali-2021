@@ -29,9 +29,10 @@ export default function Textform(props) {
             <label htmlFor="mytext" className="form-label">Example textarea</label>
             <textarea className="form-control" value = {text} onChange ={handleOnChange} style ={{backgroundColor : props.mode === 'dark' ? 'grey' : 'white',color: props.mode === 'dark' ? 'white' : 'black'}} id="mytext" rows="3"></textarea>
             </div>
-            <button className="btn btn-primary mx-1"  onClick = {handleUpClick}> convert into uppercase</button>
-            <button className="btn btn-primary mx-1" onClick = {handleLoClick}> convert into lowercase</button>
-            <button className="btn btn-primary mx-1" onClick = {clear}> clear text</button>
+            <button className="btn btn-primary mx-1"  onClick = {handleUpClick}> Convert into uppercase</button>
+            <button className="btn btn-primary mx-1" onClick = {handleLoClick}> Convert into lowercase</button>
+            <button className="btn btn-primary mx-1" onClick = {clear}> C
+            lear text</button>
         </div>
         <div className="container my-3" style ={{color: props.mode === 'dark' ? 'white' : 'black'}}>
         <h1>Your text here</h1>
